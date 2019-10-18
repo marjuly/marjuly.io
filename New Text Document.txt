@@ -1,0 +1,6 @@
+#ffdff7
+#dfffef
+#dbcaaf
+HEX: #ffdff7    	R: 255	G: 223	B: 247	C: 0      	M: 13	Y: 3	K: 0		
+HEX: #dfffef    	R: 223	G: 255	B: 239	C: 13   	M: 0	Y: 6	K: 0		
+HEX: #dbcaaf    	R: 219	G: 202	B: 175	C: 0    	M: 8	Y: 20	K: 14
