@@ -1,0 +1,75 @@
+h1{
+  color: #f69769;
+  font-family: 'Racing Sans One',cursive;
+  font-size: 100px;
+  text-align: left;
+}
+body{
+  margin-left: 75px;
+  margin-right: 75px;
+  background-image: url('../img/bkgd-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  font-family: 'Roboto', sans-serif;
+  color: #9da9ed;
+}
+.dfrnt{
+  background-color: #f69769;
+  text-align: left;
+  color: #6A5273;
+}
+.link{
+  color: #f69769;
+  padding-right: 20px
+}
+img{
+  height:225px;
+  margin: 25px 50px 25px 50px;
+  display: inline;
+  transition: filter 2s;
+}
+img:hover{
+  filter: brightness(130%);
+}
+.wrk{
+  background-color: #f69769
+}
+.hrt{
+  color: #ffffff
+}
+.pg1{
+  font-size: 20px;
+}
+table{
+  text-align: left;
+  border-collapse: collapse;
+}
+table, td, th {
+  border: 2px dotted #6A5273;
+  transition: filter 1.45s;
+}
+ul {
+  display: inline;
+  transition: filter 1.45s;
+}
+iframe{
+  display: inline;
+  float: right;
+  margin-right: 75px;
+}
+p {
+  transition: filter 1.45s;
+}
+li{
+  transition: filter 1.45s;
+}
+table {
+  transition: filter 1.45s;
+}
+p:hover, table:hover {
+  filter: brightness(160%);
+}
+li:hover{
+  filter: brightness(160%);
+}
