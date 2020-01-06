@@ -3,6 +3,12 @@ h1{
   font-family: 'Racing Sans One',cursive;
   font-size: 100px;
   text-align: left;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+li::first-line{
+  font-variant: small-caps;
 }
 body{
   margin-left: 75px;
@@ -21,55 +27,62 @@ body{
 }
 .link{
   color: #f69769;
-  padding-right: 20px
+  padding-right: 20px;
 }
 img{
   height:225px;
   margin: 25px 50px 25px 50px;
   display: inline;
-  transition: filter 2s;
+  filter: opacity(0);
+  transition: filter 1.3s;
 }
 img:hover{
-  filter: brightness(130%);
-}
-.wrk{
-  background-color: #f69769
+  filter: opacity(1);
 }
 .hrt{
-  color: #ffffff
+  color: #ffffff;
 }
-.pg1{
-  font-size: 20px;
+.pg{
+  font-size: 28px;
 }
-table{
+table, td, th{
   text-align: left;
+  border: 3px dashed #6A5273;
   border-collapse: collapse;
-}
-table, td, th {
-  border: 2px dotted #6A5273;
-  transition: filter 1.45s;
+
 }
 ul {
   display: inline;
   transition: filter 1.45s;
+  list-style: none;
 }
 iframe{
-  display: inline;
+  display: block;
   float: right;
   margin-right: 75px;
 }
-p {
+p, li, table {
   transition: filter 1.45s;
+
 }
-li{
-  transition: filter 1.45s;
-}
-table {
-  transition: filter 1.45s;
-}
-p:hover, table:hover {
+p:hover, table:hover, li:hover {
   filter: brightness(160%);
 }
-li:hover{
-  filter: brightness(160%);
+
+#i{
+  font-style: italic;
+  text-decoration: overline;
+}
+
+a:visited:before{
+  content: "/2713"
+}
+
+@keyframes example {
+  0%   {color: #f69769;}
+  20%  {color: #9da9ed;}
+  40%  {color: #ffffff;}
+  60%  {color: #6A5273;}
+  80%  {color: #DF5C60;}
+  100% {color: #f69769;}
 }
